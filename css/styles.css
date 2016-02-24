@@ -1,0 +1,86 @@
+/* Overall styles */
+
+html {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px; 
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+*,
+*:before,
+*:after  { box-sizing: inherit; }
+
+/* Navigation bar */
+
+header label {
+  color: #FFF;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 4em;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 0 1em;
+}
+
+header label:hover {
+  background: #CDCDCD;
+}
+
+/* Slide background images */
+
+.slide-1 {
+  background: url("../images/notoriousbig1.jpg");
+  color: #FFF;
+}
+
+.slide-2 {
+  background: url("../images/notoriousbig2.jpg");
+}
+
+.slide-3 {
+  background: url("../images/notoriousbig3.png");
+}
+
+.slide-4 {
+  background: url("../images/notoriousbig4.jpg");
+}
+
+/* H1 tags of each slide */
+
+h1 { 
+  font-family: "Playfair Display SC";
+  font-weight: 900;
+  font-size: 6.5em;
+  letter-spacing: .1rem;
+  color: #FFF;
+}
+
+.slide-1 h1 {
+  margin-top: 3em;
+  line-height: 7rem;
+}
+
+.slide-2 h1,
+.slide-3 h1,
+.slide-4 h1 {
+  margin: 0 0 .5em 0;
+}
+
+/* Album covers */
+
+.rtd-album {
+  margin-right: 5%;
+}
+
+.lad-album {
+  margin-left: 5%;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
